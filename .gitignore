@@ -1,0 +1,27 @@
+# Exclude Jetbrains project files
+.idea/
+
+# Exclude Packer cache files
+packer_cache/
+
+# Exclude Packer variables
+*.pkvars.hcl
+
+# Exclude Terraform cache files
+# Note that `**/.terraform/*` and `.terraform/` should be equivalent
+.terraform/
+
+# Exclude Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Exclude Terraform variables
+*.tfvars
+
+# Exclude Terraform lock files
+# Note that it is actually recommended to keep lock files under version control
+# See https://www.terraform.io/language/files/dependency-lock#lock-file-location
+.terraform.lock.hcl
+
+# Exclude environment variables
+*.env

@@ -1,1 +1,1 @@
-# launch-on-aws-ec2
+# Launch a Production-Grade Web App on AWS EC2
